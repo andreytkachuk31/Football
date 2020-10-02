@@ -1,4 +1,4 @@
 package com.football.stat;
 
-public class TeamApplication {
+public class TeamApplication1 {
 }
