@@ -1,0 +1,17 @@
+# User-specific stuff:
+.idea
+*.iml
+
+### Java importSession
+*.class
+
+### Gradle importSession
+.gradle
+build/
+
+out
+classes/
+
+.DS_Store
+
+gcloud_api_key.json
