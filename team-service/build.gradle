@@ -4,3 +4,12 @@ plugins {
 
 group 'com.football.stat'
 version '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter', version: "2.2.7.RELEASE"
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: "2.2.7.RELEASE"
+}
