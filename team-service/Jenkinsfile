@@ -4,7 +4,9 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                 sh 'ls -l'
+                 dir("team-service") {
+                    sh 'ls'
+                 }
             }
         }
         stage('Test') {
