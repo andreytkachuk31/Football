@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                  dir("team-service") {
-                    sh 'ls'
+                    sh './gradlew clean build'
                  }
             }
         }
